@@ -4,20 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dpp-lib</groupId>
-    <artifactId>dpp-lib</artifactId>
+    <groupId>dpp</groupId>
+    <artifactId>csv-map</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <repositories>
 
+    <repositories>
         <repository>
-            <id>dpp-lib</id>
-            <url>https://raw.github.com/roudie/MavenProjectCsvMap/maven-lib/</url>
+            <id>dpp</id>
+            <url>https://raw.github.com/roudie/MavenProjectCsvMap/mvn-repo/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
     </repositories>
+
     <dependencies>
         <dependency>
             <groupId>dpp</groupId>

@@ -1,7 +1,8 @@
 import com.teamdev.jxmaps.*;
 import com.teamdev.jxmaps.swing.MapView;
-import dpp.CsvReader.coords.Coordiante;
-import dpp.CsvReader.coords.CsvReader;
+
+import dpp.Coordiante;
+import dpp.CsvReader;
 
 import javax.swing.*;
 import java.awt.*;
@@ -37,7 +38,7 @@ public class Map extends MapView {
 
     public static void main(String[] args) {
         Map sample = new Map();
-
+        
         JFrame frame = new JFrame("Map with markers");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.add(sample, BorderLayout.CENTER);
