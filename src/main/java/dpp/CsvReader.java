@@ -1,4 +1,4 @@
-package dpp.korniewicz;
+package dpp;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

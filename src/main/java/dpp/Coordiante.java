@@ -1,9 +1,10 @@
-package dpp.korniewicz;
+package dpp;
 
 public class Coordiante {
     public double Latitude;
     public double Longitude;
     public String Name;
+    public String D;
 
     public String Display() {
         String describe = "";
